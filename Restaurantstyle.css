@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: verdana, Ariel, Geneva, sans-serif;
+  margin: 15px 30px;
+  font-size: 16px;
+  padding:10px;
+  color: black;
+}
+.container{
+  background-color: #F9F5EB;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid #810955;
+  border-radius: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="time"],
+input[type="date"],
+input[type="number"],
+input[type="password"],
+select,
+textarea{
+  padding:12px;
+  border: 1px solid #810955;
+  border-radius: 5px;
+}
+fieldset{
+  background-color: white;
+  border: 1px solid #810955;
+}
+h2{
+  color: black;
+  text-decoration: underline;
+}
+hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: #810955;
+  width: 20%;
+}
+body{
+background-image:url("BWallpaper7.jpg");
+}
+input[type="email"]+input[type="number"]{
+  width:70%;
+}
+.num{
+  width:70%;
+}
+input[type="submit"]{
+  background-color: #82DBD8;
+  color: white;
+  padding: 12px 20px;
+  border:none;
+  border-radius: 5px;
+  cursor:grab;
+  width: 50%
+}
+input[type="submit"]:hover{
+  background-color:#2F8F9D;
+}
+a[href="Menu.html"]{
+color:#000000;
+}
+a[href="Contact_us.html"]{
+color: #000000;
+}
+a[href="Aboutus.html"]{
+color: #000000;
+}
+a[href="index.html"]{
+color: #000000;
+}

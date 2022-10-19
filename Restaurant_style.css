@@ -1,0 +1,45 @@
+.heading{
+      text-decoration: underline;
+      color: white;
+}
+h1{
+  color: #D4F6CC;
+  text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: serif;
+}
+body{
+  font-family: cursive;
+}
+body{
+  background-image: url(Pizza9.jpg);
+  background-size: cover;
+  padding-top: 80px;
+}
+.bottom{
+  text-align: left;
+  color: White;
+}
+
+a[href="Menu.html"]{
+color: white;
+}
+a[href="Contact_us.html"]{
+color: white;
+}
+a[href="Aboutus.html"]{
+color: white;
+}
+a[href="index.html"]{
+color: white;
+}
+h2{
+  color: #FCE2DB;
+  font-size: 40px;
+  text-align: left;
+  ;
+}
+.circular{
+  border-radius: 100%;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Book your Table</title>
+  <link rel="stylesheet" href="CSS/Restaurantstyle.css">
+</head>
+
+<body>
+  <table border="0" width="100%" cellspacing="U"> <tr><td> <table border="0" width="100%">
+  </td>
+
+  <td> <a href="index.html">HOME</a></td>
+
+  <td> <a href="Menu.html">MENU</a></td>
+
+  <td><a href="Contact_us.html">CONTACT US</a></td>
+
+  <td><a href="Aboutus.html">ABOUT US</a></td>
+
+  </tr> </table><br>
+  <div class="container">
+    <form class="" action="mailto:saakshijoshiusas@gmail.com" method="post">
+      <h2><em>Your Booking Information</em></h2>
+      <hr>
+      <br>
+      <p>
+        <label>Your Name:</label>
+        <input type="text" name="YourName" value="" placeholder="abcd" required>
+        <br>
+      </p>
+      <p>
+        <label>Your contact number:</label>
+        <input type="tel" name="PhNumber" value="" placeholder="1234" required>
+        <br>
+      </p>
+      <p>
+        <label>Your Email:</label>
+        <input type="email" name="email" value="" placeholder="abc@gmail.com">
+        <br>
+      </p>
+      <p>
+        <label class="num">Guests?:</label>
+        <input type="number" name="people" value="" placeholder="2" required>
+      </p>
+      <p>
+        <label>Arriving time?=</label>
+        <input type="time" name="ArrivingTime" value="" required>
+      </p>
+      <p>
+        <label>Arriving Date?:</label>
+        <input type="date" name="ArrivingDate" value="" required>
+      </p>
+      <p>
+        <label>Any decorations to be made beforehand?:</label><br>
+        <textarea placeholder="Enter the details" name="name" rows="8" cols="180"></textarea>
+        <br>
+      </p>
+        <label>Decorations to be made for what Occassion?:</label>
+      <fieldset>
+        <legend>Occassion</legend>
+        Birthday<input type="radio" name="occassion" value=""><br>
+        Anniversary<input type="radio" name="occassion" value=""><br>
+        Promotion<input type="radio" name="occassion" value=""><br>
+        Wedding<input type="radio" name="occassion" value=""><br>
+        Bachelor's party<input type="radio" name="occassion" value=""><br>
+      </fieldset>
+      <br>
+      <hr>
+      <h2><em>Payment Information</em></h2>
+      <p>
+        <label>Select card type:</label>
+        <select name="card_type" id="card_type" required>
+          <option value="">..Card Type..</option>
+          <option value="Visa">Visa</option>
+          <option value="Rupay">Rupay</option>
+          <option value="ApplePay">ApplePay</option>
+          <option value="mastercard">mastercard</option>
+        </select>
+      </p>
+      <p>
+        <label>Card Number:</label>
+        <input type="number" name="card_number" value="" placeholder="1234 5678 1984" required>
+      </p>
+      <p>
+        <label>Expiration Date:</label>
+        <input type="date" name="expiration_date" value="" required>
+        <label>CVV:</label>
+        <input type="password" name="CVV" value="" required>
+      </p>
+      <input type="submit" name="submit" value="Pay Now">
+    </form>
+  </div>
+</body>
+<script>
+  alert("You can Book Your Table here :)")
+</script>
+</html>
